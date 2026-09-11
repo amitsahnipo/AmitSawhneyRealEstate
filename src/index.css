@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-primary: #FDFBF7;
+    --bg-secondary: #F4F5F7;
+    --text-heading: #111827;
+    --text-body: #374151;
+    --brand-navy: #0F2942;
+    --brand-navy-light: #1E3A8A;
+    --brand-sage: #5B6964;
+    --brand-sage-dark: #44504C;
+    --brand-charcoal: #171717;
+    --champagne-gold: #C5A880;
+    --champagne-gold-light: #F5EFEB;
+    --champagne-gold-dark: #A38258;
+  }
+
+  body {
+    font-family: 'Barlow', 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #FAF9F6;
+    color: #2D3748;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4, .font-serif {
+    font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, Cambria, serif;
+    color: #111827;
+  }
+
+  .font-cormorant {
+    font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+  }
+
+  .font-barlow {
+    font-family: 'Barlow', 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.98); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbar-none {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Refined Luxury Architectural Card */
+.luxury-card {
+  background: #FFFFFF;
+  border: 1px solid #E5E7EB;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04), 0 10px 25px -5px rgba(15, 23, 42, 0.03);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.luxury-card:hover {
+  border-color: #C5A880;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 20px 30px -10px rgba(15, 23, 42, 0.07);
+}
+
+/* Sharlene Chang inspired editorial text underline & accents */
+.editorial-title {
+  font-family: 'Cormorant Garamond', serif;
+  letter-spacing: -0.02em;
+}
+
+.editorial-tag {
+  font-family: 'Barlow', sans-serif;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+
+
+

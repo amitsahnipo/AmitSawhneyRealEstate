@@ -1,0 +1,7 @@
+{
+  "name": "Blueprint Realty - Ontario Pre-Construction & Resale Homes",
+  "description": "Premier digital real estate portal for GTA and Durham Region pre-construction developments, VIP builder launches, turnkey resale homes, and community guides by Amit Sawhney, Licensed REALTOR®.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
